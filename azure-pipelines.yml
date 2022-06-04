@@ -2,8 +2,8 @@ trigger:
 - '*'
 
 variables:
- webRepository: 'web'
-  tag: '$(Build.BuildId)'
+    webRepository: 'web'
+    tag: '$(Build.BuildId)'
 
 
 
